@@ -29,9 +29,9 @@ set(RELEASE_NAME "Master")
 project(qgis VERSION ${COMPLETE_VERSION})
 
 if (APPLE)
-  set(QGIS_APP_NAME "QGIS")
+  set(QGIS_APP_NAME "MIREA GIS")
 else()
-  set(QGIS_APP_NAME "qgis")
+  set(QGIS_APP_NAME "mirea gis")
 endif()
 
 # Note the version no is Mmmpp for Major/minor/patch, 0-padded, thus '10100' for 1.1.0
